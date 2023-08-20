@@ -1,0 +1,6 @@
+on:
+  push:
+
+jobs:
+  format-check:
+    uses: ./.github/workflows/core.yml

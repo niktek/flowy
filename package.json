@@ -1,0 +1,17 @@
+{
+  "name": "flowy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "vercel": "^31.4.0",
+    "wrangler": "^3.5.1"
+  }
+}
