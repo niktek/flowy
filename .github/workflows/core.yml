@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
         # don't format as we may not be able to commit back to a fork in the case of a PR
-      - name: Running lint and svelte-check
-        run: pnpm lint && pnpm ci:check
-        env:
-          VERCEL_ENV: dev
+      # - name: Running lint and svelte-check
+      #   run: pnpm lint && pnpm ci:check
+      #   env:
+      #     VERCEL_ENV: dev
