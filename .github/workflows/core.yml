@@ -12,6 +12,8 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
+      # https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#about-caching-workflow-dependencies
+      # caching automatically handled for pnpm now
       - uses: actions/setup-node@v3
         with:
           node-version: 18
