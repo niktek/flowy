@@ -1,8 +1,8 @@
 // CF_PAGES_URL
 // CF_PAGES_BRANCH
 import process from 'node:process';
+import { unlinkSync } from 'node:fs';
 
-console.log('==============================')
-console.log(process.env.CF_PAGES_URL)
-console.log(process.env.CF_PAGES_BRANCH)
-console.log('==============================')
+if (!!process.env.CF_PAGES && process.env.CF_PAGES_BRANCH == 'trunk' ) {
+	unlinkSync('../static/robots.txt')
+}
