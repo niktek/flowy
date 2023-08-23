@@ -1,7 +1,7 @@
-// CF_PAGES_URL
+// CF_PAGES_URL - only shows pages.dev url
 // CF_PAGES_BRANCH
 import process from 'node:process';
-import { unlinkSync, writeFileSync } from 'node:fs';
+import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'url';
 import { resolve } from 'node:path';
 
